@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: chocolate;
+        }
+        h1 {
+            color:blueviolet;
+            font-weight: bold;
+            text-decoration: overline;
+        }
+        img {
+            height: 60%;
+            width: 30%;
+        }
+        h3, ol {
+           text-align: left; 
+        }
+        ul {
+            list-style: none;
+        }
+        #main-img{
+            padding: 25px;
+            border: 10px solid black;
+        }
+        table{
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            border: 2px solid grey;
+        }
+        th{
+            font-weight: bold;
+            text-decoration: underline
+        }
+        td, th{
+            border: 1px dashed black
+        }
+        td > img {
+            width: 200px;
+            height: auto;
+        }
+        caption {
+            text-align: center;
+            margin: 1em;
+            text-decoration: overline underline
+        }
+    </style>
+</head>
+<body>
+    <h1> My Profile Page</h1>
+    <img id="main-img" src="Me.jpg" alt="Me Having Fun">
+    <h2>By Alex Olthoff</h2>
+    <hr>
+
+    <h2>About Me</h2>
+    <p>I am a teacher and programmer living in Beijing. I love helping people improve their programming skills!</p>
+    <hr>
+    
+    <h3>My Top Three Hobbies</h3>
+    <ol>
+        <li>Reading</li>
+        <li>Learning New Things About Programming</li>
+        <li>Traveling</li>
+    </ol>
+        <hr>
+
+    <table>
+        <caption>Some Pictures From My Daily Life</caption>
+        <thead>
+            <tr>
+                <th scope="col">My Rabbit</th>
+                <th scope="col">My Girlfriend</th>
+                <th scope="col">My Mork</th>
+                <th scope="col">My Bookshelf</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Rabbit_0068.gif" alt="rabbit eating lettuce">
+                </td>
+                <td>
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.0JtWTkp8Fd7V3OCF3ykDZwHaK4&pid=Api" alt="Girlfriend">
+                </td>
+                <td>
+                    <img src="https://coddify.com/wp-content/uploads/2016/01/programmer.png" alt="programming">
+                </td>
+                <td>
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.6ihg0zSs8r5St-9i2yGfGwHaE8&pid=Api" alt="Bookshelf">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
